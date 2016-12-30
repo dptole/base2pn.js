@@ -1,5 +1,8 @@
 -function() {
   function Base2pn(table, padding) {
+    if(!(this instanceof Base2pn))
+      return new Base2pn(table, padding);
+    
     Base2pn.validateConstructor.call(this, table, padding);
 
     this.bit_size = Base2pn.getBitSize(table);
