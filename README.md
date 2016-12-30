@@ -3,7 +3,9 @@ Base2<sup>n</sup>
 
 Base2pn.js provides a customizable base 2, 4, 8, [16](https://en.wikipedia.org/wiki/Base16), [32](https://en.wikipedia.org/wiki/Base32), [64](https://en.wikipedia.org/wiki/Base64) and 128 encoding/decoding in just one file.
 
-```javascript
+```html
+<script src="base2pn.js"></script>
+<script>
 var table = [
       "q", "a", "z", "w", "s", "x", "e", "d", "c", "r", "f", "v", "t", "g",
       "b", "y", "h", "n", "u", "j", "m", "k", "i", "o", "l", "p", "Q", "W",
@@ -21,4 +23,5 @@ var table = [
     // "Custom base 2, 4, 8, 16, 32, 64 and 128 encoding/decoding in just one file"
   , decoded = custom_base64.decode(encoded)
 ;
+</script>
 ```
