@@ -1,7 +1,25 @@
 Base2<sup>n</sup>
 =================
 
-Base2pn.js provides a customizable base 2, 4, 8, [16](https://en.wikipedia.org/wiki/Base16), [32](https://en.wikipedia.org/wiki/Base32), [64](https://en.wikipedia.org/wiki/Base64) and 128 encoding/decoding in just one file.
+  [![Issue status][gh-issues-badge]][gh-issues]
+  [![NPM Version][npm-module-version-badge]][npm-module]
+  [![Downloads][npm-downloads-total-badge]][npm-module]
+  [![Say thanks][saythanks-badge]][saythanks-to]
+
+Base2pn.js provides a customizable base 2, 4, 8, [16][base16-url], [32][base32-url], [64][base64-url] and 128 encoding/decoding in just one file.
+
+Backend
+=======
+
+```
+$ npm i base2pn.js
+$ node
+> const Base2pn = require('@dptole/base2pn.js')
+// It works the same as the frontend example.
+```
+
+Frontend
+========
 
 ```html
 <script src="base2pn.js"></script>
@@ -25,3 +43,20 @@ var table = [
 ;
 </script>
 ```
+
+License
+=======
+
+[MIT][LICENSE]
+
+[gh-issues-badge]: https://img.shields.io/github/issues-raw/dptole/base2pn.js.svg
+[gh-issues]: https://github.com/dptole/base2pn.js/issues
+[npm-module-version-badge]: https://img.shields.io/npm/v/@dptole/base2pn.js.svg
+[npm-module]: https://www.npmjs.org/package/@dptole/base2pn.js
+[npm-downloads-total-badge]: https://img.shields.io/npm/dt/@dptole/base2pn.js.svg
+[saythanks-badge]: https://img.shields.io/badge/say%20thanks-%E3%83%84-44cc11.svg
+[saythanks-to]: https://saythanks.io/to/dptole
+[base16-url]: https://en.wikipedia.org/wiki/Base16
+[base32-url]: https://en.wikipedia.org/wiki/Base32
+[base64-url]: https://en.wikipedia.org/wiki/Base64
+[LICENSE]: LICENSE
