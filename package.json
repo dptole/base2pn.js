@@ -1,6 +1,6 @@
 {
   "name": "@dptole/base2pn.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Base2pn.js provides a customizable base 2, 4, 8, 16, 32, 64 and 128 encoding/decoding in just one file.",
   "directories": {
     "example": "example",
