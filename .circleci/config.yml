@@ -8,4 +8,4 @@ jobs:
       - run: npm i -D
       - run: npm t
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-      - run: npm public --access public
+      - run: npm publish --access public
