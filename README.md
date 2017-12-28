@@ -1,6 +1,7 @@
 Base2<sup>n</sup>
 =================
 
+  [![Build status][circle-ci-badge]][circle-ci]
   [![Issue status][gh-issues-badge]][gh-issues]
   [![NPM Version][npm-module-version-badge]][npm-module]
   [![Downloads][npm-downloads-total-badge]][npm-module]
@@ -49,6 +50,8 @@ License
 
 [MIT][LICENSE]
 
+[circle-ci]: https://circleci.com/gh/dptole/base2pn.js
+[circle-ci-badge]: https://img.shields.io/circleci/project/dptole/base2pn.js.svg
 [gh-issues-badge]: https://img.shields.io/github/issues-raw/dptole/base2pn.js.svg
 [gh-issues]: https://github.com/dptole/base2pn.js/issues
 [npm-module-version-badge]: https://img.shields.io/npm/v/@dptole/base2pn.js.svg
